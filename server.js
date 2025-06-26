@@ -13,7 +13,7 @@ const authroute = require("./routes/authRoutes")
 const app = express();
 connectDB();
 
-const allowedOrigin = ["http://localhost:5173,https://bejewelled-pavlova-a77450.netlify.app/"]
+const allowedOrigin = ["http://localhost:5173","https://bejewelled-pavlova-a77450.netlify.app/"]
 
 // parsing the body 
 app.use(express.json())
